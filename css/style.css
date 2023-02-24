@@ -1,10 +1,13 @@
 *, *::before, *::after {
     box-sizing: border-box;   
+    font-family: 'Inter', sans-serif;
  }
 
 
  header{
     width: 100%;
+    display: flex;
+    justify-content: center;
  }
 
  .header-items{
@@ -12,11 +15,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em;
+    max-width: 1440px;
+    width: 100%;
  }
 
  .desktop-options{
     display: none;
     flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
  }
 
  .logo{
@@ -27,6 +34,7 @@
  .hamburger{
     width: 5%;
     max-width: 35px;
+    cursor: pointer;
  }
 
 
@@ -36,6 +44,10 @@
     }
     .desktop-options{
         display: flex;
+    }
+    .desktop-options a{
+        text-decoration: none;
+        color: #000000;
     }
  }
 
