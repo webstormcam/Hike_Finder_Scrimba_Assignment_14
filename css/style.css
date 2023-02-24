@@ -1,4 +1,45 @@
 *, *::before, *::after {
     box-sizing: border-box;   
  }
+
+
+ header{
+    width: 100%;
+ }
+
+ .header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+ }
+
+ .desktop-options{
+    display: none;
+    flex-direction: row;
+ }
+
+ .logo{
+    width: 40%;
+    max-width: 276px;
+ }
+
+ .hamburger{
+    width: 5%;
+    max-width: 35px;
+ }
+
+
+ @media screen and (min-width:1024px){
+    .hamburger{
+        display: none;
+    }
+    .desktop-options{
+        display: flex;
+    }
+ }
+
+ 
+
+ 
  
