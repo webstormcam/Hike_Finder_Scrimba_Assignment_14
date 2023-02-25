@@ -3,7 +3,7 @@
     font-family: 'Inter', sans-serif;
  }
 
-
+/*Header Mobile content*/
  header{
     width: 100%;
     display: flex;
@@ -22,7 +22,7 @@
  .desktop-options{
     display: none;
     flex-direction: row;
-    width: 300px;
+    width: 440px;
     justify-content: space-between;
  }
 
@@ -39,14 +39,38 @@
 
 
  @media screen and (min-width:1024px){
+
+
+    /*Header Desktop content*/
     .hamburger{
         display: none;
     }
     .desktop-options{
         display: flex;
+        align-items: center;
     }
     .desktop-options a{
         text-decoration: none;
+        font-weight: 600;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .sign-up {
+        color: #ffffff;
+        background-color: #638A5C;
+        padding: 1em 2em;
+        border: 1px solid green;
+        border-radius: 0.2em;
+    }
+    .login{
+        color: #000000;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        padding: 1em 2em;
+        border-radius: 0.2em;
+    }
+
+    .links{
         color: #000000;
     }
  }
