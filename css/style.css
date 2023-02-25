@@ -3,6 +3,8 @@
     font-family: 'Inter', sans-serif;
  }
 
+
+
 /*Header Mobile content*/
  header{
     width: 100%;
@@ -35,6 +37,24 @@
     width: 5%;
     max-width: 35px;
     cursor: pointer;
+ }
+
+ /*Top of the main*/
+.part1{
+   background-image: url('/images/image2.jpg');
+   background-size: cover;
+
+}
+
+.top-words{
+    color: #ffffff;
+}
+ 
+ h1{
+    font-size: 4.25rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    
  }
 
 
