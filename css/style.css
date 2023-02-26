@@ -60,7 +60,7 @@ main{
 
 
 .part1{
-   background-image: url('/images/image2.jpg');
+   background-image: url('../images/image2.jpg');
    background-size: cover;
 
 }
