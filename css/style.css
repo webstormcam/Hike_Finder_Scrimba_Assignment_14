@@ -20,7 +20,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     position: relative;
  }
 
@@ -119,11 +119,21 @@ main{
     flex-direction: column;
     padding-left: 2.938em;
     background-color: grey;
+    width: 100%;
+}
+
+.light-background{
+    display: none;
 }
 
 
 
 @media screen and (max-width:767px){
+    
+    .top-words{
+        text-align: center;
+    }
+    
     h1{
         font-size:2.25rem ;
     }
@@ -176,6 +186,15 @@ main{
 
     .links{
         color: #000000;
+    }
+
+    .part1{
+        display: flex;
+        
+    }
+
+    .light-background{
+        display: flex;
     }
 
     
