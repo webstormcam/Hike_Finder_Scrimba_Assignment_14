@@ -9,9 +9,7 @@
     align-items: center;
  }
 
- .hide-little-nav{
-    display: none;
- }
+ 
 
 
 
@@ -108,12 +106,18 @@ main{
     font-family: 'Inter', sans-serif;
 }
 
+.hidden{
+    display: none;
+}
+
 .mobile-options{
-    
+    display: flex;
     flex-direction: column;
     padding-left: 2.938em;
     background-color: grey;
 }
+
+
 
 @media screen and (max-width:767px){
     h1{
