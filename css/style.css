@@ -48,14 +48,29 @@
 
 .top-words{
     color: #ffffff;
+    padding: 1em;
+    width: 100%;
+    max-width: 623px;
 }
  
  h1{
     font-size: 4.25rem;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    margin: 0.5em 0em;
+    
     
  }
+
+ .yellow{
+    color:#ECE480;
+    font-weight:600;
+ }
+
+ .top-p{
+    font-size: 1.625rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
 
 
  @media screen and (min-width:1024px){
@@ -93,6 +108,8 @@
     .links{
         color: #000000;
     }
+
+    
  }
 
  
