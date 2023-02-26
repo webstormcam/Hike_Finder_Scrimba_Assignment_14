@@ -15,24 +15,35 @@
     <header>
         <nav class="header-items">
             <img class="logo" src="images/logo.png" alt="Hikefinder Logo">
-            <img class="hamburger" src="images/Vector.png" alt="Hamburger icon">
+            <img id="hamburger" class="hamburger" src="images/Vector.png" alt="Hamburger icon">
             <div class="desktop-options">
                 <a class="links" href="#">HOME</a>
                 <a class="links" href="#">EXPLORE</a>
                 <a class="sign-up" href="#">SIGN UP</a>
                 <a class="login" href="#">LOG IN</a>
             </div>
+           
         </nav>
     </header>
     <main>
+        <nav id="mobile-nav" class="mobile-options hide-little-nav">
+            <a class="links" href="#">HOME</a>
+            <a class="links" href="#">EXPLORE</a>
+            <a class="sign-up" href="#">SIGN UP</a>
+            <a class="login" href="#">LOG IN</a>
+        </nav>
         <section class="part1">
             <div class="dark-background">
             <div class="top-words">
                 <h1>Find Your Next <span class="yellow"> Adventure</span></h1>
                 <p class="top-p">Your next hiking adventure awaits. Get on the trail with detailed maps and updates shared by hikers like you.</p>
             </div>
+            <div class="mobile-input">
+                <input class='search-city-input' type="text" placeholder="Search by city">
+            </div>
             </div>
         </section>
     </main>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
