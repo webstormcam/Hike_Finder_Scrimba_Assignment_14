@@ -73,7 +73,6 @@ main{
     color: #ffffff;
     padding: 2.938em;
     width: 100%;
-    max-width: 623px;
 }
  
  h1{
@@ -95,9 +94,7 @@ main{
     font-weight: 600;
 }
 
-.mobile-input{
-    padding: 0em 2.938em;
-}
+
 
 .search-city-input{
     padding: 1em 1.5em;
@@ -125,7 +122,9 @@ main{
 .light-background{
     display: none;
 }
-
+.mobile-input{
+    padding: 0em 2.938em;
+}
 
 
 @media screen and (max-width:767px){
@@ -146,7 +145,19 @@ main{
         font-size: 1rem;
     }
 
+    .mobile-input{
+        text-align: center;
+    }
+
+
+
     
+}
+
+@media screen and (min-width:764px){
+    .top-words{
+        max-width: 623px;
+    }
 }
 
 
@@ -196,6 +207,7 @@ main{
     .light-background{
         display: flex;
     }
+
 
     
  }
