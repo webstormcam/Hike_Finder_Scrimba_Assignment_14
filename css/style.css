@@ -170,7 +170,7 @@ main{
 .magnify{
     position: absolute;
     left: 4.9em;
-    top: 0.9em;
+    top: 1em;
     width: 20px;
     height: 20px;
 
@@ -178,7 +178,7 @@ main{
 
 .mobile-input{
     position: relative;
-    max-width: 500px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
