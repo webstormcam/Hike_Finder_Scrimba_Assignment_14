@@ -97,7 +97,7 @@ main{
 
 
 .search-city-input{
-    padding: 1em 1.5em;
+    padding: 1em 3em;
     width: 90%;
     max-width: 570px;
     font-size: 1.2rem;
@@ -169,11 +169,27 @@ main{
 
 .magnify{
     position: absolute;
+    left: 4.9em;
+    top: 0.9em;
+    width: 20px;
+    height: 20px;
 
 }
 
 .mobile-input{
     position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+button{
+   color: #ffffff;
+   background-color: #638A5C;
+   width: 90%;
+   border-radius: 1em;
+   padding: 1em;
+   border: none;
+  margin: 1em 0em;
 }
 
 
@@ -196,8 +212,10 @@ main{
     }
 
     .mobile-input{
-        text-align: center;
+       text-align: center;
     }
+
+   
 
 
 
@@ -207,6 +225,9 @@ main{
 @media screen and (min-width:764px){
     .top-words{
         max-width: 623px;
+    }
+    .mobile-input{
+        margin: 0;
     }
 }
 
@@ -225,6 +246,10 @@ main{
         align-items: center;
     }
 
+    .top-words{
+        padding-bottom: 6em;
+    }
+
 
    
 
@@ -237,8 +262,16 @@ main{
         
     }
 
+    .dark-background{
+        background-color: #00000097;
+    }
+
     .light-background{
         display: flex;
+    }
+
+    .mobile-input{
+        display: none;
     }
 
 
