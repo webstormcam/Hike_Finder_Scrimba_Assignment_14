@@ -289,6 +289,27 @@ button{
     display: none !important;
 }
 
+.desktop-input{
+    display: flex;
+    align-items: end;
+}
+
+.search-city-input{
+    width: 100%;
+    max-width: 684px;
+    position: relative;
+    bottom: 2em;
+    margin-left: 1.2em;
+}
+
+.magnify{
+    top: 23.4em;
+}
+
+button{
+    top: 18em;
+    right: 0.4em;
+}
    
 
 .top-words{
