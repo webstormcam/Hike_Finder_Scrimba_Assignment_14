@@ -280,9 +280,7 @@ button{
         align-items: center;
     }
 
-    .top-words{
-        padding-bottom: 6em;
-    }
+   
 }
 
 
@@ -293,7 +291,9 @@ button{
 
    
 
-
+.top-words{
+    padding-bottom: 6em;
+}
    
 
     .links{
