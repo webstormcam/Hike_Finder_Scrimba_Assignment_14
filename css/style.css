@@ -103,6 +103,8 @@ main{
     font-size: 1.2rem;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
+    border-radius: 0.2em;
+    border: none;
     
 }
 
@@ -213,7 +215,10 @@ button{
 
     .mobile-input{
        text-align: center;
+
     }
+
+   
 
    
 
@@ -229,14 +234,43 @@ button{
     .mobile-input{
         margin: 0;
     }
+
+    .larger-input{
+       max-width: 711px; 
+    }
+
+    .magnify{
+        width: 25px;
+        height: 25px;
+        left: 4rem;
+    }
+    button{
+        position: absolute;
+        width: auto;
+        right: 6em;
+        font-size: 1.2rem;
+        letter-spacing: 0.2em;
+        font-weight: 600;
+        top: -0.8em;
+        border-radius: 5%;
+        padding: 0.7em;
+    }
+
+    .search-city-input{
+        font-size: 2rem;
+        padding: 0.3em 3em;
+        padding-left: 2em;
+    }
+    .dark-background{
+        padding-bottom: 2em;
+    }
+
+    .desktop-input{
+        position: relative;
+    }
 }
 
-
- @media screen and (min-width:1024px){
-.mobile-options{
-    display: none !important;
-}
-
+@media screen and (min-width:1024px){
     /*Header Desktop content*/
     .hamburger{
         display: none;
@@ -249,6 +283,15 @@ button{
     .top-words{
         padding-bottom: 6em;
     }
+}
+
+
+ @media screen and (min-width:1330px){
+.mobile-options{
+    display: none !important;
+}
+
+   
 
 
    
