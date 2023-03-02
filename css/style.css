@@ -285,21 +285,35 @@ button{
 
 
  @media screen and (min-width:1330px){
+
+
+    .dark-background{
+        width: 100%;
+        max-width: 668px;
+    }
+
+    .light-background{
+        width: 100%;
+        max-width: 772px;
+    }
+
 .mobile-options{
     display: none !important;
 }
 
 .desktop-input{
     display: flex;
+    width: 100%;
     align-items: end;
 }
 
 .search-city-input{
     width: 100%;
-    max-width: 684px;
+    max-width: 700px;
     position: relative;
     bottom: 2em;
     margin-left: 1.2em;
+    margin-right: 1em;
 }
 
 .magnify{
@@ -308,7 +322,7 @@ button{
 
 button{
     top: 18em;
-    right: 0.4em;
+    right: 2em;
 }
    
 
