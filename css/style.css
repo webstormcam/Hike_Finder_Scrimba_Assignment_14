@@ -236,6 +236,7 @@ footer{
     align-items: center;
     max-width: 1440px;
     padding-bottom: 2em;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer-nav{
