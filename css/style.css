@@ -229,6 +229,12 @@ footer{
     color: #A5A5A5;
 }
 
+.logo_copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 @media screen and (max-width:767px){
     
@@ -393,6 +399,17 @@ button{
 
     .mobile-input{
         display: none;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.438em;
+    }
+
+    .footer-nav{
+        order: 2;
+        padding: 0rem;
     }
 
 
