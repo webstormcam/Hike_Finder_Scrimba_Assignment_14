@@ -210,12 +210,13 @@ footer{
     align-items: center;
     padding: 2em;
     
+    
 }
 
 .footer-nav a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-bottom: 1em;
 }
 
@@ -301,6 +302,14 @@ footer{
 
     .desktop-input{
         position: relative;
+    }
+
+    .footer-nav{
+        width: 100%;
+    max-width: 368px;
+    padding-bottom: 0.5em;
+    flex-direction: row;
+    justify-content: space-between;
     }
 }
 
