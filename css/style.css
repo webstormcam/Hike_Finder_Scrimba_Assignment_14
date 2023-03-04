@@ -286,6 +286,11 @@ footer{
     margin-top: 1.5em;
 }
 
+.area-desc{
+    margin-top: 1em;
+    padding-left: 1em;
+}
+
 
 
 
@@ -321,7 +326,7 @@ footer{
     
 }
 
-@media screen and (min-width:764px){
+@media screen and (min-width:768px){
     .top-words{
         max-width: 623px;
     }
