@@ -492,6 +492,18 @@ button{
     top: 18em;
     right: 2em;
 }
+
+h2{
+    font-size: 2.75rem;
+}
+
+.location-name{
+    font-size: 2.875rem;
+}
+
+h4{
+    font-size: 1.563rem;
+}
    
 
 .top-words{
@@ -503,7 +515,7 @@ button{
 }
 
 .area-desc{
-    margin: 0em 6em;
+    margin: 0em 8em;
 }
    
 
@@ -514,6 +526,10 @@ button{
     .part1{
         display: flex;
         
+    }
+
+    .part2{
+        margin-bottom: 2em;
     }
 
     .dark-background{
