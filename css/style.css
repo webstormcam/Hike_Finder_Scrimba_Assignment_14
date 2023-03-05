@@ -217,6 +217,27 @@ h2{
 
 }
 
+.area-info{
+    margin-bottom: 2em;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #6F6F6F;
+    margin-top: 1.2em;
+}
+
+
+
+.green-button{
+    
+    background-color: #638A5C;
+    color: #ffffff;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    max-width: 120px;
+    border-radius: 0.5em;
+}
+
 .grid-item{
     display: flex;
     flex-direction: column;
@@ -229,6 +250,20 @@ h3{
     font-weight: 700;
     color: #4E4E4E;
     margin: 1em 0em;
+}
+
+.hike-stat-icon{
+    width: 45px;
+}
+
+.location-name{
+    margin-bottom: 0.5em;
+}
+
+h4{
+    margin: 0.5em 0em;
+    color: #1F1F1F;
+    font-weight: 600;
 }
 
 .stat-info{
