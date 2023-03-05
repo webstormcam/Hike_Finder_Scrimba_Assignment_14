@@ -501,6 +501,10 @@ button{
 .area-picture{
     width: 100%;
 }
+
+.area-desc{
+    margin: 0em 6em;
+}
    
 
     .links{
