@@ -9,11 +9,6 @@
     align-items: center;
  }
 
- 
-
-
-
-
 
 /*Header Mobile content*/
  header{
@@ -214,7 +209,7 @@ h2{
     row-gap: 2em;
     column-gap: 4em;
     background-color: #FAFAFA;
-
+align-items: baseline;
     padding: 3em 1.438em;
 
 }
@@ -339,6 +334,17 @@ footer{
     margin: 0em 0.5em;
 }
 
+.map{
+    display: none;
+}
+
+.green-text{
+    color: #638A5C !important;
+    font-weight: bold;
+}
+
+
+
 
 
 
@@ -363,6 +369,10 @@ footer{
     .mobile-input{
        text-align: center;
 
+    }
+
+    .map{
+        display: none;
     }
 
    
@@ -458,6 +468,15 @@ footer{
     .area-desc{
         padding-right: 1em;
     }
+
+    .map{
+        display: block;
+    }
+    .explore-large-screen{
+      display: flex;
+    }
+
+   
 
    
 }
