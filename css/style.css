@@ -351,6 +351,14 @@ footer{
     font-weight: bold;
 }
 
+.actual-image{
+    display: none;
+}
+
+.level,.kind-words{
+    padding-left: 1em;
+}
+
 
 
 
@@ -380,9 +388,9 @@ footer{
     }
 
 
-    .level{
-        padding-left: 1em;
-    }
+   
+
+  
 
    
 
@@ -487,6 +495,7 @@ footer{
 
     .map-holder{
         display: block;
+        margin-top: 1.3em;
     }
     .explore-large-screen{
       display: flex;
@@ -503,8 +512,8 @@ footer{
 
     .explore-picture{
         order: 2;
-        width: 144px;
-        height: 111px;
+        width: 110px;
+       
         margin-left: 2em;
     }
 
@@ -515,6 +524,14 @@ footer{
 
     .rated-hikes{
         display: flex;
+    }
+
+    .actual-image{
+        display: inline;
+    }
+
+    .level,.kind-words{
+        padding-left: 0em;
     }
    
 
