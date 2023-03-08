@@ -318,6 +318,11 @@ footer{
     margin-top: 1.5em;
 }
 
+.explore-picture{
+    width: 100%;
+    margin-top: 1.5em;
+}
+
 .area-desc{
     margin-top: 1em;
     padding-left: 1em;
@@ -335,6 +340,9 @@ footer{
 }
 
 .map{
+    display: none;
+}
+.map-holder {
     display: none;
 }
 
@@ -371,8 +379,9 @@ footer{
 
     }
 
-    .map{
-        display: none;
+
+    .level{
+        padding-left: 1em;
     }
 
    
@@ -465,17 +474,48 @@ footer{
         width: 60%;
     }
 
-    .area-desc{
-        padding-right: 1em;
+   
+
+    .areaPicture_title{
+        width: 370px;
+        border-bottom: 1px solid grey;
     }
 
     .map{
+        display: block;
+    }
+
+    .map-holder{
         display: block;
     }
     .explore-large-screen{
       display: flex;
     }
 
+    .level_picture{
+        display: flex;
+        align-items: top;
+       
+    }
+
+   
+   
+
+    .explore-picture{
+        order: 2;
+        width: 144px;
+        height: 111px;
+        margin-left: 2em;
+    }
+
+    .actual-image{
+        width: 90%;
+        margin-left: 4em;
+    }
+
+    .rated-hikes{
+        display: flex;
+    }
    
 
    
@@ -584,6 +624,8 @@ h4{
         order: 2;
         padding: 0rem;
     }
+
+   
 
 
     
