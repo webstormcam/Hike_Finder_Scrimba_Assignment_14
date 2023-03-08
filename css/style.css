@@ -494,8 +494,9 @@ footer{
     }
 
     .map-holder{
-        display: block;
+        display: flex;
         margin-top: 1.3em;
+        justify-content: end;
     }
     .explore-large-screen{
       display: flex;
@@ -518,8 +519,8 @@ footer{
     }
 
     .actual-image{
-        width: 90%;
-        margin-left: 4em;
+        width: 95%;
+       
     }
 
     .rated-hikes{
@@ -640,6 +641,11 @@ h4{
     .footer-nav{
         order: 2;
         padding: 0rem;
+    }
+
+    .rated-hikes{
+        width: 100%;
+        justify-content: space-between;
     }
 
    
