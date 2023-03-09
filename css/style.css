@@ -520,6 +520,7 @@ footer{
 
     .actual-image{
         width: 95%;
+        height: 90%;
        
     }
 
@@ -533,6 +534,7 @@ footer{
 
     .level,.kind-words{
         padding-left: 0em;
+        font-size: 1.5rem;
     }
 
     .area-picture_title:nth-last-child(){
@@ -683,6 +685,10 @@ h4{
 
 .hike-rating{
     font-size: 1.5rem;
+}
+
+.actual-image{
+    height: 80%;
 }
 
    
