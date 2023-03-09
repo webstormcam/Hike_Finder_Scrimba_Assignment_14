@@ -485,7 +485,6 @@ footer{
    
 
     .areaPicture_title{
-        width: 370px;
         border-bottom: 1px solid grey;
     }
 
@@ -505,6 +504,7 @@ footer{
     .level_picture{
         display: flex;
         align-items: top;
+        justify-content: space-between;
        
     }
 
@@ -534,6 +534,18 @@ footer{
     .level,.kind-words{
         padding-left: 0em;
     }
+
+    .area-picture_title:nth-last-child(){
+        border-bottom:none;
+    }
+
+    .walkable-area-with-rating{
+        width: 40%;
+    }
+
+    .no-border-bottom{
+        border-bottom: none;
+       }
    
 
    
@@ -647,6 +659,25 @@ h4{
         width: 100%;
         justify-content: space-between;
     }
+
+    .explore-picture{
+        width: 144px;
+        height: 107px;
+    }
+
+   .explore-large-screen{
+    margin-top: 2rem;
+   }
+
+   .location-name-explore{
+    font-size: 1.4rem;
+   }
+
+   .walkable-area-with-rating{
+    width: 35%;
+}
+
+   
 
    
 
