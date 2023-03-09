@@ -670,11 +670,19 @@ h4{
    }
 
    .location-name-explore{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
    }
 
    .walkable-area-with-rating{
     width: 35%;
+}
+
+.map-holder{
+    width: 65%;
+}
+
+.hike-rating{
+    font-size: 1.5rem;
 }
 
    
