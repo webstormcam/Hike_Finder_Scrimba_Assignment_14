@@ -461,6 +461,9 @@ footer{
         display: flex;
         align-items: center;
     }
+    .mobile-options{
+    display: none !important;
+}
 
     .stat-info{
        font-size: 1.4rem;
@@ -567,9 +570,7 @@ footer{
         max-width: 772px;
     }
 
-.mobile-options{
-    display: none !important;
-}
+
 
 .desktop-input{
     display: flex;
